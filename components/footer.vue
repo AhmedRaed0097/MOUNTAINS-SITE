@@ -1,0 +1,56 @@
+<template>
+  <v-footer
+    padless
+    class="footer"
+  >
+    <v-card
+      flat
+      tile
+      class=" text-center footer-card"
+    >
+      <v-card-text>
+        <v-btn
+          v-for="icon in icons"
+          :key="icon"
+          class="mx-4"
+          icon
+        >
+          <v-icon
+            color="rgb(61, 61, 61)"
+            size="28px"
+          >
+            {{ icon }}
+          </v-icon>
+        </v-btn>
+      </v-card-text>
+
+      <v-card-text class="pt-0">
+        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </v-card-text>
+
+      <v-divider />
+
+      <v-card-text>
+        {{ new Date().getFullYear() }} — <strong>Ahmed Raed</strong>
+      </v-card-text>
+    </v-card>
+  </v-footer>
+</template>
+<script>
+export default {
+  data () {
+    return {
+      icons: ['mdi-facebook', 'mdi-gmail', 'mdi-linkedin']
+    }
+  }
+}
+</script>
+<style lang="scss">
+.footer{
+
+    .footer-card{
+
+        background-color:#F6D7A7;
+}
+}
+</style>
