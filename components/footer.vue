@@ -45,12 +45,3 @@ export default {
   }
 }
 </script>
-<style lang="scss">
-.footer{
-
-    .footer-card{
-
-        background-color:#F6D7A7;
-}
-}
-</style>

@@ -60,14 +60,4 @@ export default {
   /* color: #fff; */
 }
 
-#app{
-  /* background-position: center; */
-  /* background-image: url('@/assets/images/bg2.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat; */
-  /* width: 100vw; */
-  background: #F6EABE;
-
-}
 </style>

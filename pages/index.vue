@@ -23,8 +23,8 @@
       <v-row v-for="(mountain , i) in mountains" :key="i">
         <v-col
           cols="12"
-          md="6"
-          sm="12"
+          sm="6"
+          xs="12"
           class="content"
           style=" display: flex;
                   flex-direction: column;
@@ -49,7 +49,12 @@
             <p>{{ mountain.description }}</p>
           </div>
         </v-col>
-        <v-col cols="12" md="6" sm="12" class="img mt-10">
+        <v-col
+          cols="12"
+          sm="6"
+          xs="12"
+          class="img mb-10"
+        >
           <div class="img">
             <img width="100%" :src="mountain.image" alt="Mountain-image">
           </div>
