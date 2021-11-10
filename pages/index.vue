@@ -5,7 +5,7 @@
       <v-row>
         <v-col xs="12">
           <h1 class="text-center mb-5">
-            {{ 'my mountains site'.toUpperCase() }}
+            {{ 'Updated title'.toUpperCase() }}
           </h1>
         </v-col>
       </v-row>
